@@ -5,7 +5,7 @@
 # Link to a page that gives an overview of all your projects.
 # This can be an external link (e.g., to you GitHub profile) or to another
 # page within your website.
-projects_url: http://github.com/probberechts
+projects_url: https://github.com/majianyu2007
 
 # Set the page direction to RTL or LTR. default is LTR. (if you set it 'rtl', the 'vazir' font will be loaded.)
 direction: ltr
@@ -17,7 +17,11 @@ nav:
   home: /
   about: /about/
   articles: /archives/
-  projects: http://github.com/probberechts
+  tag: /tags/
+  category: /categories/
+  search: /search/
+  LINK_NAME: https://mjy.js.org/
+
 
 
 # Links to your social media accounts.
@@ -26,27 +30,14 @@ nav:
 # only 'mail' is an exception.
 # You can optionally add a 'label' key to set the title attribute on the link. 
 # 'icon' value will be used as title when 'label' is missing.
-social_links:
-  -
-    icon: github
-    link: http://github.com/probberechts/cactus-dark
-  -
-    icon: twitter
-    link: /
-  -
-    icon: facebook
-    link: /
-  -
-    icon: mail
-    link: mailto:name@email.com
-  -
-    icon: mastodon
-    label: mastodon.social
-    link: https://mastodon.social/@alice
-  -
-    icon: mastodon
-    label: fosstodon.org
-    link: https://fosstodon.org/@alice
+
+  social_links:
+    -
+      icon: github
+      link: https://github.com/majianyu2007
+    -
+      icon: bilibili
+      link: https://space.bilibili.com/600064036
 
 # Customize the overview with displaying a tagcloud on the index page.
 # Options: https://hexo.io/docs/helpers.html#tagcloud
@@ -79,7 +70,7 @@ post:
 # Customize the copyright years
 # Note: if start_year/end_year not provided, will use current year.
 copyright:
-  start_year: 2016
+  start_year: 2019
   end_year:
 
 # Customize the 404 page
@@ -108,7 +99,7 @@ logo:
   width: 50
   height: 50
   url: /images/logo.png
-  gravatar: false
+  gravatar: true
   grayout: true
 
 # Customize the favicons.
@@ -133,12 +124,12 @@ favicon:
 
 # The color scheme that should be used to highlight codeblocks.
 # See source/css/_highlight for a list of all available color schemes.
-# highlight: rainbow
+highlight: rainbow
 
 # Set the color scheme.
 # Available color schemes are 'dark', 'light', 'classic' and 'white'.
 # Alternatively, add your own custom color scheme to source/css/_colors.
-colorscheme: dark
+colorscheme: light
 
 # Maximal width of the page in rem units.
 page_width: 48
@@ -149,14 +140,14 @@ page_width: 48
 ##############################################################################
 
 # Enable or disable the RSS feed.
-rss: false
+rss:
 
 # Turn your web pages into graph objects (see http://ogp.me).
-open_graph:
-  fb_app_id:
-  fb_admins:
-  twitter_id:
-  google_plus:
+# open_graph:
+#  fb_app_id:
+#  fb_admins:
+#  twitter_id:
+#  google_plus:
 
 
 ##############################################################################
@@ -206,8 +197,8 @@ umami_analytics:
 # logo and/or favicons of you website.
 # To generate hash: `$ echo -n "name@email.com" | md5`.
 gravatar:
-  email: name@email.com
-  hash: d41d8cd98f00b204e9800998ecf8427e
+  email: mjy20070413@gmail.com
+  hash: 76d83e77efbbba108339a041a7a05f9f
 
 # loads libraries and styles from CDN instead or relying on local files
 cdn:
