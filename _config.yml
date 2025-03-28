@@ -98,8 +98,8 @@ logo:
   width: 50
   height: 50
   url: /images/logo.png
-  gravatar: true
-  grayout: true
+  gravatar: false
+  grayout: false
 
 # Customize the favicons.
 # Cactus supports a limited set of the three most important icons:
